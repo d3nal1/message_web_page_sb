@@ -1,0 +1,30 @@
+<%--
+  Created by IntelliJ IDEA.
+  User: d3nal1
+  Date: 23.07.2021
+  Time: 14:09
+  To change this template use File | Settings | File Templates.
+--%>
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ taglib prefix="form" uri="http://www.springframework.org/tags/form" %>
+
+<html>
+<head>
+    <title>Admin Page</title>
+</head>
+<body>
+<h1>Massage Salon - User Page</h1><br>
+<td>Welcome, ${user.name} <td>${user.surname} !</td></td>
+
+<h1>Available offers</h1><br>
+<a href="/offer/printAll">Show All Offers</a><br>
+
+<h1>Available menu</h1><br>
+<a href="/exercise/printAll">Show All Exercises</a><br>
+
+<h1>Change your profile</h1><br>
+
+</body>
+</html>
+
+
